@@ -1,0 +1,22 @@
+{
+  "57595c832fe9ef8afb5e860224eba0d1bd0f93cfdddeab269c00741826f1ffe0": {
+    "summary": "This file's primary purpose is to define a visual component for displaying information about a single source code file within an interactive diagram or graph. The most important concept it defines is the `FileNode` React component, which renders a styled box showing a file's name, language, lines of code, and cyclomatic complexity. It typically fits into a larger application as a custom node for a diagramming library like `reactflow`, depending on it for connection \"handles\" and utility functions for generating color-coded visual indicators.",
+    "filepath": "frontend/src/components/FileNode.jsx",
+    "cached_at": "2026-06-11T18:44:04.703322+00:00"
+  },
+  "d2a1c197a75637ac97011a557e833713bafb4ddf7fb8f2df5a363a6b9ca60fb4": {
+    "summary": "This file defines a React custom hook named `useSummary` that handles fetching, caching, and managing the state related to a summary for a specific code file from a backend API. The most important concept is the `useSummary` function itself, which provides state variables like `summary`, `summaryLoading`, and `summaryError`, along with functions to `fetchSummary` and `clearSummary`. User interface components, such as a file tree or code viewer, would use this hook to display summaries for selected files, and it relies on a separate `apiClient` utility to communicate with a backend `/api/summarize` endpoint.",
+    "filepath": "frontend/src/hooks/useSummary.js",
+    "cached_at": "2026-06-11T18:44:10.645422+00:00"
+  },
+  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": {
+    "summary": "This empty file's primary purpose is to declare the `tests` directory as a Python package, enabling Python to find and load test modules located within it. The most important concept it enables is the `tests` package itself, allowing individual test files to be imported and run by a testing framework. It is a fundamental part of the project's testing setup, relied upon by test runners (like `pytest`) to discover and execute tests, and it doesn't directly depend on other project code.",
+    "filepath": "backend/backend/tests/__init__.py",
+    "cached_at": "2026-06-11T18:44:33.580261+00:00"
+  },
+  "b9cb604cce2597432036c9634f3067cc6a2b9b95b8eadc7d026464e47133ff68": {
+    "summary": "This file defines the main structure and overall behavior of the frontend application, integrating various UI components and managing their shared state. The most important concept is the `App` function component itself, which orchestrates data fetching, state management for selected elements, and the layout of the `Toolbar`, `GraphCanvas`, and `SidePanel`. This file typically serves as the root component for a React application, depending on all its imported sub-components and custom hooks, and is usually rendered directly by an `index.js` or `main.jsx` file.",
+    "filepath": "frontend/src/App.jsx",
+    "cached_at": "2026-06-11T18:44:41.861269+00:00"
+  }
+}
